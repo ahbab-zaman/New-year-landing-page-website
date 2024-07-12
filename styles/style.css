@@ -370,3 +370,49 @@
 .footer-upper-content2 img{
   width: 16px;
 }
+
+/* CSS media queries */
+/* small device */
+@media screen and (max-width: 576px) {
+  header, main{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .section-banner{
+    width: 100%;
+    margin: 5px;
+  }
+  .hero{
+    width: 100%;
+  }
+  .hero-img img{
+    width: 100%;
+  }
+  .party, .location, .offer{
+    width: 100%;
+    margin: 5px;
+  }
+  .offer{
+    flex-direction: column;
+  }
+  .offer-right-img-box img{
+    display: none;
+  }
+  .offer-right{
+    width: 100%;
+    display: inline;
+  }
+  .sale{
+    text-align: start;
+  } 
+  .gift-box img{
+   width: 300px;
+   height: 300px;
+  }
+  .grid-imgs{
+    grid-template-columns: 100%;
+  }
+  .grid-imgs img{
+    width: 100%;
+  }
+}
